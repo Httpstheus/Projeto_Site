@@ -1,0 +1,613 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+
+
+ .center {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0.2%;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+.menu-mobile {
+
+ display: none;
+
+}
+
+ header {
+   background-color: #fff;
+   padding: 20px 0;
+   border-bottom:1px solid rgb(200,200,200);
+
+ }
+
+ .logo {
+   color: #8D021F; 
+ 
+  }
+
+  .logo h2 {
+  
+   font-weight: normal;
+   font-size: 22px;
+
+  }
+
+
+.menu {
+ width: 80%;
+ text-align: right;
+
+
+}
+
+.menu a {
+ color: #8D021F;
+ font-size: 14px;
+ text-decoration: none;
+ margin-right:20px;
+ transition: 0.3s;
+
+}
+
+  .menu a:hover {
+   color:#ff0037;
+
+  }
+
+.menu .btn-menu {
+
+  background-color: #c9032e;
+  display:inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+
+  background-color: #860a25;
+  color: #fff;
+
+}
+
+
+
+/*
+section main
+*/
+
+section.main {
+background: url("https://www.anchieta.br/hubfs/servi%C3%A7os%20juridicos.jpg");
+padding: 140px 0;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+
+.main_cta {
+
+ width: 100%;
+ text-align: center;
+ margin: 60px 0;
+ 
+}
+
+.main_cta h2  {
+
+ color: #8D021F;
+ font-size: 40px;
+
+}
+
+.main_cta p {
+
+  color: #fff;
+  font-size: 19px;
+  margin: 10px 0;
+
+}
+
+.main_cta button {
+
+  background-color: #8D021F;
+  display:inline-block;
+  padding: 20px 45px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 22px;
+  border: 0;
+  cursor: pointer;
+}
+
+.diferenciais {
+
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.diferencial-single {
+ background-color: rgb(255, 255, 255);
+ width: 23%;
+ padding: 50px 20px;
+ margin-right: 2%;
+ border-radius: 12px;
+}
+
+.diferencial-single i {
+
+ color: #5f0a1d;
+ font-size: 23px;
+}
+
+.diferencial-single h2 {
+
+ color:#5f0a1d;
+ margin: 10px 0;
+ font-size: 17px;
+
+}
+
+.diferencial-single p {
+
+color: #444444;
+font-size: 14px;
+
+}
+
+section.about {
+
+ padding: 80px 0;
+
+}
+
+.chamada-sobre {
+  width: 100%;
+  text-align: center;
+
+}
+
+.chamada-sobre h2 {
+
+ color: #8D021F;
+ text-transform: uppercase;
+
+}
+
+.chamada-sobre p {
+
+  font-size: 14px;
+  color: #444444;
+  margin: 10px 0;
+
+}
+
+.conteudo-sobre {
+  
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.conteudo-sobre i {
+  
+  color: #8D021F;
+
+}
+
+.conteudo-sobre span {
+
+ display: inline-block;
+ width: 100%;
+ margin-top: 10px;
+
+}
+
+.conteudo-sobre p {
+
+width: 48%;
+margin-right: 2%;
+color: #444444;
+
+}
+
+section.conquistas {
+
+  background-color: #f8fbfe;
+  padding: 20px 0;
+  margin: 15px;
+
+}
+
+.conquista-single {
+
+ width: 22%;
+ margin-right: 3%;
+ text-align: center;
+ padding-top: 25px 0;
+
+}
+
+.conquista-single h2 {
+
+ color: #8D021F;
+ font-size: 25px;
+
+}
+
+.box {
+
+ width: 80%;
+ height: 600px;
+ display: inline-block;
+ margin: 50px 10%;
+ box-shadow: 0 2px 60px rgba(0,0,0,27);
+ border-radius: 25px;
+  overflow: hidden;
+}
+
+.box-img {
+
+  float:left;
+  width: 45%;
+}
+
+.box-text {
+
+  width:55%;
+  float:left;
+  padding-left: 75px;
+
+}
+
+.box-text h1 {
+
+ font-weight: bold;
+ color: #8D021F;
+ font-size: 48px;
+}
+
+.box-text p{
+
+ font-size:14px;
+ font-weight: 300;
+ color: #444444;
+ line-height: 30px;
+ letter-spacing: 1px;
+}
+
+.contact {
+  
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #8D021F;
+  margin-top: 20px;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("https://blog.anhanguera.com/wp-content/uploads/2020/12/post_thumbnail-4fe7d060755207cb6837349575cc1c4d.jpeg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  border-radius: 15px;
+}
+
+.left{
+	background: url("https://faculdadebaianadedireito.com.br/wp-content/uploads/2020/01/faculdade-baiana-de-direito-img-69.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+  border-radius: 15px;
+}
+
+.right{
+	padding: 25px 40px;
+  color: #8D021F;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #a80a2c;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #8D021F;
+}
+
+.field:focus{
+    border: 2px solid #860a25;
+    background-color: #fff;
+}
+
+.negociacao {
+
+ text-align: center;
+ background: url("https://www.docbiz.com.br/wp-content/uploads/2019/08/297343-aprenda-4-tecnicas-de-negociacao-e-aumente-suas-vendas.jpg");
+ padding: 120px 0;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-top: 20px;
+
+}
+
+.negociacao h1{
+
+  font-size: 40px;
+  font-weight: bold;
+  color:#860a25;
+  padding: 10px;
+}
+
+h2:hover {
+
+ color: #000000;
+ transition: 0.5s;
+
+}
+
+.footer-distributed {
+
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px;
+  padding: 45px 50px;
+
+}
+
+.footer-distributed .footer-left p {
+
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+
+}
+
+.footer-distributed p.footer-links {
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+
+}
+
+.footer-distributed p.footer-links a {
+
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+
+}
+
+.footer-distributed .footer-links a:before {
+
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+
+}
+
+.footer-distributed .footer-links .link-1:before {
+
+  content: none;
+
+}
+
+.footer-distributed .footer-right {
+
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+
+}
+
+.footer-distributed .footer-right a {
+
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+
+}
+
+.footer-distributed .footer-right a:hover {
+  
+  transform:scale(1.1); -webkit-transform:scale(1.1);
+
+}
+
+.footer-distributed p.footer-links a:hover {
+  
+  text-decoration:underline;
+
+}
+
+.cards {
+
+  text-align: center;
+  padding: 120px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  background-color: #f8f8f8;
+ 
+ }
+
+
+@media screen and (max-width: 768px) {
+
+  .diferencial-single {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .conteudo-sobre p {
+
+    width: 100%;
+    margin: 20px 20px;
+   
+   }
+
+  .menu {
+
+    display: none;
+
+  }
+
+  .menu-mobile {
+   
+   display: block;
+   text-align: right;
+   width: 70%;
+
+  }
+
+  .logo {
+
+    width: 30%;
+
+  }
+
+  .menu-mobile {
+
+   cursor: pointer;
+
+  }
+
+ .box { 
+   
+  width: 80%;
+}
+ .box p {
+   
+  width:100%;
+  font-size: 12px;
+  color: #cecccc;
+
+}
+
+.box h1 {
+
+ color: #fff;
+ font-size: 25px;
+}
+
+.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+
+}
+
+
